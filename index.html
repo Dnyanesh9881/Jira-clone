@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Sans:opsz@9..40&family=Inter+Tight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="tracking-section">
+      <div class="containers" id="to-do">
+        <p>TO DO</p>
+        <button class="issue-btn" id="create-issue">
+          <span class="material-icons"> add </span>
+          <span>Create Issue</span>
+        </button>
+        <input
+          type="text"
+          placeholder="What needs to be done?"
+          class="hide issue-inpute"
+        />
+        <!-- <div class="card">
+                <span>Dummy App</span>
+                <span class="material-icons delete-btn">delete</span>
+            </div> -->
+      </div>
+      <div class="containers" id="inProcess">
+        <p>IN PROGRESS</p>
+      </div>
+      <div class="containers" id="done">
+        <p>DONE</p>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+    <script src="./draging.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.tracking-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.containers {
+  height: 400px;
+  width: 250px;
+  background-color: #f4f5f7;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.issue-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: none;
+}
+.issue-btn:hover {
+  background-color: #dee1e5;
+}
+.hide {
+  display: none;
+}
+.issue-inpute {
+  padding-bottom: 40px;
+  width: 100%;
+  /* border: 2px solid #2584ff; */
+}
+.issue-inpute:focus {
+  border: 2px solid #2584ff;
+}
+.card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px gray;
+  /* box-sizing: border-box; */
+  padding: 0.4rem;
+  padding-bottom:2rem;
+  color: #182a4d;
+  background-color: #ffffff;
+}
+.card>#delete{
+   cursor: pointer;
+}
+
